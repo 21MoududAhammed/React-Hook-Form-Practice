@@ -4,7 +4,7 @@ export default function Field({label, children}){
     const id = getChildId(children);
     return (
         <div className="flex flex-col items-start justify-start mt-2 p-0 w-full mr-2">
-            {label && <label htmlFor={id}>{label}</label>}
+            {label && <label className="font-semibold" htmlFor={id}>{label}</label>}
             {children}
         </div>
     );
