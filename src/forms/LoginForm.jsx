@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
-import Field from "./Field";
-import FieldSet from "./FieldSet";
+import FieldSet from "../components/FieldSet";
+import Field from "../components/Field";
 
 export default function LoginForm() {
   const {
