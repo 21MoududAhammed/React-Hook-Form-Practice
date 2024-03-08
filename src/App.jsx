@@ -1,10 +1,12 @@
-import LoginForm from "./forms/LoginForm";
+// import LoginForm from "./forms/LoginForm";
+import RegisterForm from "./forms/RegisterForm";
 
 
 export default function App(){
     return (
         <>
-        <LoginForm/>
+        {/* <LoginForm/> */}
+        <RegisterForm/>
         </>
     );
 }
